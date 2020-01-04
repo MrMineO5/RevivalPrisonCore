@@ -1,0 +1,134 @@
+name: Prison
+author: UltraDev
+main: net.ultradev.prisoncore.Main
+version: '1.0'
+description: "RevivalPrison's main core plugin"
+depend: [Vault, Essentials, Holograms, ViaVersion, Citizens, PremiumVanish, ProtocolLib]
+commands:
+  show:
+    description: "Show your current held item"
+  rankup:
+    description: "Rank up"
+  maxrankup:
+    description: "Rank up"
+    aliases: [rankupmax, rum, maxru]
+  setrank:
+    description: "Set a player's rank"
+  crate:
+    description: "Crate commands"
+  mine:
+    description: "Crate and modify mines"
+    aliases: [mines]
+  enchant:
+    description: "Edit a player's pickaxe enchantments"
+    usage: "/enchant add/remove/set <Player> <Enchantment> <Amount> [-s]"
+    aliases: [cenchant]
+  givebomb:
+    description: "Give a player bombs"
+    usage: "/givebomb <Player> <Power> <Amount>"
+  givescroll:
+    description: "Give a player scrolls"
+    usage: "/givescroll <Player> <Enchantment> <Amount>"
+  autosell:
+    description: "Toggle autosell"
+    aliases: [as]
+  debug:
+    description: "Toggle debug mode"
+  build:
+    description: "Toggle build mode"
+  setarmormulti:
+    description: "Set the armor multiplier of your held item"
+  givesocketgem:
+    description: "Give a player a socket gem"
+  treasurehunt:
+    description:
+    usage:
+    aliases: ["thunt", "th"]
+    permission:
+  mailbox:
+    description: "Open your mailbox"
+    usage: "null"
+    aliases: []
+  sendmail:
+    description: "Send the item you are currently holding to a players mailbox"
+  givekey:
+    description: "Give a player a key"
+  addtokens:
+    description: "Give a player tokens"
+  addtime:
+    description: "Add autominer time to a player"
+  clearmine:
+    description: "Clear a mine"
+  consumable:
+    description: "Give a player a consumable item"
+  fix:
+    description: "Fix your pickaxe"
+    aliases: [repair]
+  resetmine:
+    description: "Reset a mine"
+  testgui:
+    description: "Test a GUI"
+  fly:
+    description: "Allows you to fly"
+  test:
+    description: "Yeah... Does whatever I'm testing rn lol"
+  max:
+    description: "Max someone's pickaxe!"
+  new:
+    description: "Remove all enchatns from someone's pickaxe!"
+  givekeyvault:
+    description: "Give a player a keyvault"
+  gang:
+    description: "The Main command for gang stuff"
+  settings:
+    description: "Change your personal settings"
+  autominer:
+    description: "Opens the autominer GUI"
+    aliases: [am, autominers, ams, miner, miners]
+  opengui:
+    description: "Force open a gui to a player"
+  tinker:
+    description: "Opens the tinker GUI"
+    aliases: [tinkerer, dust]
+  updaterank:
+    description: "Modify somebodies rank data in the API"
+  discord:
+    description: "Display the discord link"
+    aliases: ["dc", "disc"]
+  withdraw:
+    description: "Withdraw tokens into an item"
+  kit:
+    description: "Use a kit"
+    aliases: [kits]
+  vote:
+    description: "Get the list of voting links"
+  baltop:
+    description: "Get the players with the top tokens"
+    aliases: [tokentop, topbalances, toptokens, leaderboard, leaderboards, lb]
+  ranktop:
+    description: "Get the players with the top ranks"
+    aliases: [rankstop, topranks]
+  faq:
+    description: "Help relating to the server!"
+    aliases: [help, questions, question]
+  pay:
+    description: "Pay tokens to a player"
+  eco:
+    description: ""
+    aliases: [economy]
+  bal:
+    description: "Show a player's balance"
+    aliases: [balance, tokens]
+  nbt:
+    description: "Show/edit NBT of an item"
+  playtime:
+    description: "See a player's playtime"
+    aliases: [pt, timeplayed]
+  dustbank:
+    description: "View your dust bank"
+    aliases: [db]
+  kvcraft:
+    description: "Craft up your keyvaults"
+    aliases: [keyvaultcraft]
+  whois:
+    description: "Get information on a player"

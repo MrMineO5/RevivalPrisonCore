@@ -1,0 +1,64 @@
+enchantprices:
+  efficiency:
+    start: 100
+    growth: 13.55
+  fortune:
+    start: 100
+    growth: 13.55
+  unbreaking:
+    start: 100
+    growth: 13.55
+  merchant:
+    start: 100
+    growth: 2.5
+  favored:
+    start: 100
+    growth: 1.838
+  surge:
+    start: 100
+    growth: 0.0783
+  obliterate:
+    start: 100
+    growth: 0.0416
+  nightvision:
+    start: 100000
+    growth: 1.0
+  jumpboost:
+    start: 10000
+    growth: 0.0165
+  speed:
+    start: 10000
+    growth: 0.0165
+  lightning:
+    start: 1000
+    growth: 0.12
+  saturated:
+    start: 100
+    growth: 0.99
+  explosive:
+    start: 1000
+    growth: 0.4934
+  tokengreed:
+    start: 100
+    growth: 5.8
+  lucky:
+    start: 100
+    growth: 3.14
+  adept:
+    start: 75
+    growth: 1.2369
+  cluster:
+    start: 2500
+    growth: 0.0188
+  eruption:
+    start: 100
+    growth: 1.582
+  mystic:
+    start: 100
+    growth: 1.33
+  magnetic:
+    start: 100
+    growth: 1.33
+  charity:
+    start: 750
+    growth: 2.99
