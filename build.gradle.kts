@@ -49,7 +49,6 @@ dependencies {
     compileOnly("com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT")
     compileOnly("com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT")
     compileOnly("us.myles:viaversion:2.1.3-SNAPSHOT")
-    compileOnly("me.clip:VoteParty:1.14.0")
     compileOnly("com.boydti:fawe-api:latest")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7")
     compileOnly("de.myzelyam:SuperVanish:6.1.0") {
