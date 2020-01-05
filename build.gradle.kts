@@ -45,7 +45,7 @@ dependencies {
     compileOnly("net.ess3:EssentialsX:2.17.0") {
         exclude("org.bukkit", "bukkit")
     }
-    compileOnly("com.sainttx.holograms:Holograms:2.10.0-SNAPSHOT")
+    // compileOnly("com.sainttx.holograms:Holograms:2.10.0-SNAPSHOT")
     compileOnly("com.sk89q.worldedit:worldedit-bukkit:6.1.4-SNAPSHOT")
     compileOnly("com.sk89q.worldedit:worldedit-core:6.1.4-SNAPSHOT")
     compileOnly("us.myles:viaversion:2.1.3-SNAPSHOT")
