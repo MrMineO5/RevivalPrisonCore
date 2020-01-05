@@ -24,6 +24,6 @@ public class DungeonManager {
         return true;
     }
     public void init() {
-        
+
     }
 }
