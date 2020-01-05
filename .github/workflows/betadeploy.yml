@@ -18,6 +18,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Navigate
-      run: cd ./build/
+      run: cd build
     - name: Deploy
       run: ls
