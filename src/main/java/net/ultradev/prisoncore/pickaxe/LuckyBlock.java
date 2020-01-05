@@ -9,13 +9,10 @@ import net.ultradev.prisoncore.rewards.rewards.TokenReward;
 import net.ultradev.prisoncore.utils.math.MathUtils;
 import org.bukkit.entity.Player;
 
-import java.util.Random;
-
 public class LuckyBlock {
     public static RewardApplicator getLuckBlockReward(final int favoredLevel, final boolean message, final double favoredSocket) {
         final boolean more = MathUtils.isRandom(favoredSocket, 100.0);
         final double i = MathUtils.random(0.0, 100.0);
-        final Random rand = new Random();
         if (i < 60.0) {
             long tokenCount = (favoredLevel + 1) * 5;
             if (more) {
@@ -59,7 +56,6 @@ public class LuckyBlock {
     public static RewardApplicator getSuperLuckBlockReward(final int favoredLevel, final boolean message, final double favoredSocket) {
         final boolean more = MathUtils.isRandom(favoredSocket, 100.0);
         final double i = MathUtils.random(0.0, 100.0);
-        final Random rand = new Random();
         if (i < 60.0) {
             long tokenCount = favoredLevel * 5;
             if (more) {

@@ -15,6 +15,13 @@ public abstract class Dungeon {
     private Material mat;
     private Location spawnPoint;
 
+    public Dungeon(String name, String displayName, Material mat, Location spawnPoint) {
+        this.name = name;
+        this.displayName = displayName;
+        this.mat = mat;
+        this.spawnPoint = spawnPoint;
+    }
+
     public abstract void spawnMobs();
     public abstract void update();
     public abstract void runAbility();
